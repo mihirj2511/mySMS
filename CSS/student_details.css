@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.h1 {
+
+    text-align: center;
+    background-color: #0F131C;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.span {
+    position: absolute;
+    top: 6px;
+    right: 33px;
+    font-size: 20px;
+}
+
+.span a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.span a:hover {
+
+    color: #007cba;
+}
+
+#navbar {
+
+    background-color: #0F131C;
+    
+}
+
+#background {
+
+    background-color: gray;
+    height: 100%;
+
+}
+
+#navbar ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li {
+
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+#navbar input {
+
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+#navbar input:hover {
+
+    background-color: white;
+}
+
+#main {
+
+    margin: 0px auto;
+    height: 99%;
+    width: 90%;
+    background-color: #343a40;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+#form {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#display {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main input {
+
+    margin: 22px 12px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+}
+
+.span marquee {
+
+    font-size: 13px;
+}
+
+#table {
+
+    margin: 270px auto;
+    color: white;
+}
+
+#table input {
+
+    color: white;
+}
+
+#table1 {
+
+    margin: 270px auto;
+    color: white;
+}
+
+#table1 input {
+
+    color: black;
+
+}
